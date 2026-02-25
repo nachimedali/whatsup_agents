@@ -1,0 +1,18 @@
+# Node artifact files
+dist/
+
+# Compiled Python bytecode
+*.py[cod]
+
+# media folder
+media/
+
+# Environment
+.env
+
+# Sqlite
+db.sqlite3
+
+celerybeat-schedule
+*.bak
+venv/

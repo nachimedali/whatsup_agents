@@ -8,7 +8,12 @@ dist/
 media/
 
 # Environment
-.env
+backend/.env
+frontend/node_modules
+whatsapp-bridge/node_modules
+
+whatsapp-bridge/.wa-session
+whatsapp-bridge/.wwebjs_cache
 
 # Sqlite
 db.sqlite3
@@ -16,3 +21,4 @@ db.sqlite3
 celerybeat-schedule
 *.bak
 venv/
+backend/.venv/
